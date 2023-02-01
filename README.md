@@ -21,4 +21,4 @@ Final project for ECE685D Introduction to Deep Learning, Duke University, Spring
 2. Data: contains the preprocessed weather data and its description. The original data is too large so we do not submit it, but it is available by request.
 3. Ref: contains the reference paper whose methods are mainly applied in this project
 4. Tex/Figures: all the figure outputs in this projects
-5. Report: contains PDF version of the group report
+5. [report]Task_Affinity.pdf: it is PDF version of the group report
