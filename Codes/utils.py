@@ -205,7 +205,7 @@ def diag_fisher(model, data, batch_size_test):
 
         # Compute the Fisher Information as (p.grad.data ** 2)
         for n, p in model.named_parameters():
-            precision_matrices[n].data += (p.grad.data ** 2).mean(0)  # only diagonal
+            precision_matrices[n].data += (p.grad.data ** 2).mean(0)  
 
     # Fisher Information
     precision_matrices = {n: p for n, p in precision_matrices.items()}
